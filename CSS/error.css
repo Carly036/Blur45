@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.error_dos{
+    margin-top: 3%;
+    margin-left: 29%;
+    }
+
+nav{
+    background-color: black;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-position: center;
+}
+p{
+    font-size: 45pt;
+    margin-left: 16.5%;
+    margin-top: 2%;
+}
+a{
+    margin-left: 34%;
+    color: #133789;
+    font-size: 20pt;
+    margin-top: -3%;
+}
+.error_dos p{
+    margin-top: -7%;
+    margin-left: 25%;
+    font-size: 60pt;
+    font-weight: bolder;
+    opacity: 95%;
+    color: black;
+}
+.imagenError{
+    
+    opacity: 100%;
+    margin-top: -14%;
+    margin-left: 15%;
+}
+.direccion{
+    margin-top: 1%;
+   margin-left: -2%;
+   
+}
+.direccion .a{
+    color: red;
+}

@@ -1,0 +1,76 @@
+img{
+    width: 3%;
+    margin-left: -21%;
+}
+.uno{
+    width: 300px;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+.unoT{
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 15%;
+    margin-top: -18%;
+    font-size: 20pt;
+}
+
+#cajaPadreC {
+    margin: 1%;
+    margin-top: 1%;
+    margin-left: 10%;
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+  }
+  #contenedor {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 200px;
+    transition: top 0.3s ease-in-out 0s;
+  }
+  .contenedorSup {
+    width: 400px;
+    height: 190px;
+  }
+  .contenedorInf {
+    width: 320px;
+    height: 35px;
+    margin-left: 15.3%;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  #contenedor:hover {
+    top: -50px;
+  }
+  strong {
+    font-size: 20px;
+    color: black;
+  }
+  .textoParrafo{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+
+footer{
+    margin-left: 25%;
+}
+.imUno{
+    width: 200px;
+    height: 100px;
+    margin-left: 1%;
+}
+.imDos{
+    width: 80px;
+    height: 80px;
+    margin-left: 10%;
+}
+.dosT{
+    margin-left: 25%;
+}
+

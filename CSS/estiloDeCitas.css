@@ -1,0 +1,94 @@
+p{
+    margin-top: 3%;
+    margin-left: 8%;
+}
+.dos{
+    margin-left: 40%;
+    margin-top: -21%;
+}
+.unoP{
+    margin-right: 35%;
+    text-align: justify;
+    margin-top: 1%;
+}
+
+#cajaPadre {
+    margin: 1%;
+    margin-top: -15%;
+    margin-left: 66%;
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+  }
+  .caja{
+    margin-top: -15%;
+    margin-left: 5%;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .cajas{
+    margin-top: 2%;
+    margin-left: 16%;
+    position: relative;
+    width: 850px;
+    height: 200px;
+    overflow: hidden;
+  }
+  #cajaPadreD {
+    margin: 1%;
+    margin-top: -7%;
+    margin-left: 5%;
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+  }
+  #cajaPadreT{
+    margin-top: -7%;
+    margin-left: 5%;
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+  }
+  #contenedorP {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 200px;
+  }
+  .contenedorSuperior {
+    width: 400px;
+    height: 190px;
+  }
+  .contenedorInferior {
+    width: 320px;
+    height: 35px;
+    margin-left: 15.3%;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  .stronger {
+    font-size: 20px;
+    color: white;
+  }
+  .textoParrafo{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+  .lista{
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: -8%;
+    text-align: justify;
+  }
+
+  .tex{
+    margin-top: 10%;
+    margin-left: 40%;
+  }

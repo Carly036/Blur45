@@ -1,0 +1,42 @@
+b p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.iU{
+    margin-left: 38%;
+    height: 230px;
+    width: 300px;
+    border-radius: 60%;
+    
+}
+.p{
+margin-left: 10%;
+margin-right: 10%;
+text-align: justify;
+}
+.datos{
+    text-align: center;
+}
+#cajaPadreV {
+    margin-top: 1%;
+    margin-left: 35%;
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+    border-radius: 30%;
+
+  }
+  .contenedorInferio {
+    width: 340px;
+    height: 30px;
+    margin-left: 13%;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  .stronge {
+    font-size: 20px;
+    color: white;
+  }

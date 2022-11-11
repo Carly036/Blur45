@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--Inicio de los meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="referencias, citas, bibliográficas, apa, edicion, bibliografías, generador, información, 
+    citado, formato, estilo, online, vancouver, libros, revista, pdf, artículo"/>
+    <meta name="description" content="Generador de referencias bibliográficas e informacón sobre como citar correctamente"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carla Jacqueline Jacobo Gómez"/>
+    <meta name="robots" content="home"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <!--Fin de los meta-->
+
+    <link rel="shortcut icon" href="IMAGE/logoSinFondo.png" class="imageOne" />
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <script src="Scripts/scripts.js"></script>
+
+    <h1><title>Generador de referencias bibliográficas e información sobre como citar correctamente</title></h1>
+  </head>
+  
+  <body>
+    
+    <!--Inicio del menú-->
+    <nav class="menu">
+      <div class="hamburger"><span></span><span></span><span></span></div>
+      <label class="logo">INNANDO</label>
+      <img src="IMAGE/logopequeñoSF.png" alt="logo personal" />
+      <ul id="sliding_menu">
+        <li><a href="file:///C:/Users/52443/Desktop/Gestiones%20de%20P%20Empresariales%20-Edgar/2%20proyecto/innandoDos/citas.html">Citas bibliografica</a></li>
+        <li><a href="file:///C:/Users/52443/Desktop/Gestiones%20de%20P%20Empresariales%20-Edgar/2%20proyecto/innandoDos/contactame.html">Contactame</a></li>
+      </ul>
+    </nav>
+    <!--Fin del menú-->
+
+    <!--Inicio de la primera imagen-->
+    <section id="cajaPadreC"> 
+      <img src="IMAGE/fondoD.jpeg.jpg" alt="Muestra una imagen de la naturaleza para tranquilizar al lector" class="uno">
+      <div id="contenedor"> 
+          <div class="contenedorSup"></div>
+          <div class="contenedorInf"> 
+              <p> <strong>John Maisbitt</strong></p>
+          </div>
+      </div>
+  </section>
+ <!--Fin de la primera imagen-->
+
+  <p class="unoT">“LA NUEVA FUENTE DE PODER NO ES EL DINERO EN MANOS DE POCOS, SINO LA INFORMACIÓN EN MANOS DE MUCHOS”</p>
+  <br><br><br><br>
+    <!--Datos-->
+  <br>
+    <div class="textoParrafo">
+      <p>Una referencia bibliográfica es, “un conjunto de elementos suficientemente detallado que permiten la identificación de la fuente documental impresa o de la cual se extrae la información” (Centro Interamericano de documentación e información agrícola [CIDIA], 1985).</p>
+        <b><br><p>TIPOS DE REFERENCIAS</p></b>
+        <p>Actualmente existen más de 5 tipos de formatos (APA, Vancober, Chicago, Harvard, MLA, IEEE, etc) pero como el más popular es el estilo APA, se estará trabajando con este, pudiendo hacer referencias a libros, artículos, sitios y videos de YouTube.</p>
+    </div>
+    <br>
+ <!--Datos de instrucciones-->
+ <div class="textoParrafo">
+<b><p>INSTRUCCIONES</p></b>
+     <p>Selecciona la opción de referencia que se desee generar, a continuación llene los espacios que se solicitan y presione el botón de “Generar”, la referencia aparecerá en el recuadro del lado izquierdo; como extra podrá eliminar cualquier referencia con solo el ID o eliminar toda la lista:
+    </p>
+ </div>
+
+    <!--Imagen del logo-->
+    <img src="IMAGE/Im4.jpg" alt="logo personal" />
+
+      <!--Inicio de los iconos del menú-->
+    <div class="selector">
+      <div class="contenedor" id="uno">
+        <img
+          src="IMAGE/iconos/biblioteca.png"
+          alt="icono de referencia libro"
+          class="icon"
+        />
+        <p class="texto">Libros</p>
+        <a class="select" onclick="aparecer(1)">Seleccionar</a>
+      </div>
+      <div class="contenedor" id="dos">
+        <img
+          src="IMAGE/iconos/periodico.png"
+          alt="icono de referencia articulo"
+          class="icon"
+        />
+        <p class="texto">Articulos</p>
+        <a class="select" onclick="aparecer(2)">Seleccionar</a>
+      </div>
+      <div class="contenedor" id="tres">
+        <img
+          src="IMAGE/iconos/sitio-web.png"
+          alt="icono de referencia internet"
+          class="icon"
+        />
+        <p class="texto">Sitios</p>
+        <a class="select" onclick="aparecer(3)">Seleccionar</a>
+      </div>
+      <div class="contenedor" id="cuatro">
+        <img
+          src="IMAGE/iconos/video.png"
+          alt="icono de referencia internet"
+          class="icon"
+        />
+        <p class="texto">Audiovisuales</p>
+        <a class="select" onclick="aparecer(4)">Seleccionar</a>
+      </div>
+    </div>
+
+    <form id="todo">
+      <div class="citador libro from" id="libros" hidden>
+        <label> Nombre del autor: </label><br />
+        <input
+          class="media"
+          type="text"
+          name="nombreL"
+          id="nombreL"
+          value=""
+          placeholder="Nombre"
+        />
+        <input
+          class="media"
+          type="text"
+          name="apellidoL"
+          id="apellidoL"
+          value=""
+          placeholder="Apellido"
+        />
+        <br />
+        <label> Año de publicación: </label> <br />
+        <input
+          class="completo"
+          type="number"
+          name="anoL"
+          id="anoL"
+          placeholder="Año"
+        />
+        <br />
+        <label> Titulo de libro: </label> <br />
+        <input
+          class="completo"
+          type="text"
+          name="tituloL"
+          id="tituloL"
+          placeholder="Titulo del libro"
+        />
+        <br />
+        <label> Editor: </label><br />
+        <input
+          class="completo"
+          type="text"
+          name="editorL"
+          id="editorL"
+          placeholder="Editor"
+        />
+        <br />
+        
+        <br />
+        <br />
+        <a class="generar" onclick="generarLibros()">Generar cita</a>
+      </div>
+
+      <div class="citador articulo from" id="articulos" hidden>
+        <label> Nombre del autor: </label> <br />
+        <input
+          class="media"
+          type="text"
+          name="nombreA"
+          id="nombreA"
+          value=""
+          placeholder="Nombre"
+        />
+        <input
+          class="media"
+          type="text"
+          name="apellidoA"
+          id="apellidoA"
+          value=""
+          placeholder="Apellido"
+        />
+        <br />
+        <label> Titulo del articulo: </label> <br />
+        <input
+          class="completo"
+          type="text"
+          name="tituloA"
+          id="tituloA"
+          placeholder="Titulo del articulo"
+        />
+        <br />
+        <label> Titulo de la revista: </label> <br />
+        <input
+          class="completo"
+          type="text"
+          name="tituloSitioA"
+          id="tituloSitioA"
+          placeholder="Titulo de revista"
+        />
+        <br />
+        <label> Volumen y numero: </label> <br />
+        <input
+          class="media"
+          type="number"
+          name="volumenA"
+          id="volumenA"
+          placeholder="Volumen"
+        />
+        <input
+          class="media"
+          type="number"
+          name="numeroA"
+          id="numeroA"
+          placeholder="Numero"
+        />
+        <br />
+        <label> Fecha de publicación: </label> <br />
+        <input
+          class="media"
+          type="date"
+          name="fechaA"
+          id="fechaA"
+          placeholder="Fecha de publicacion  "
+        />
+        <br />
+        <label> Pagina: </label> <br />
+        <input
+          class="media"
+          type="number"
+          name="rangoIA"
+          id="rangoIA"
+          placeholder="Rango Inicial"
+        />
+        <input
+          class="media"
+          type="number"
+          name="rangoTA"
+          id="rangoTA"
+          placeholder="Rango Final"
+        />
+        <br /><br />
+        <a class="generar" onclick="generarArticulo()"> Generar cita</a>
+      </div>
+
+      <div class="citador internet from" id="sitio">
+        <label> Nombre del autor: </label><br />
+        <input
+          type="text"
+          name="nombreI"
+          id="nombreI"
+          value=""
+          placeholder="Nombre"
+          class="media"
+        />
+        <input
+          type="text"
+          name="apellidoI"
+          id="apellidoI"
+          value=""
+          class="media"
+          placeholder="Apellido"
+        />
+        <br />
+        <label> Fecha de publicación: </label><br />
+        <input
+          class="media"
+          type="date"
+          name="anoI"
+          id="anoI"
+          placeholder="Año"
+        />
+        <br />
+        <label> Titulo del articulo: </label><br />
+        <input
+          class="completo"
+          type="text"
+          name="tituloArticuloI"
+          id="tituloArticuloI"
+          placeholder="Titulo del Articulo"
+        />
+        <br />
+        <label> Fecha de recuperación: </label><br />
+        <input
+          class="media"
+          type="date"
+          name="fechaI"
+          id="fechaI"
+          placeholder=""
+        />
+        <br />
+        <label> Nombre de la página: </label><br />
+        <input
+          type="text"
+          name="nombrePi"
+          id="nombrePi"
+          class="completo"
+          placeholder="Nombre de la pagina"
+        />
+        <br />
+        <label> URL: </label><br />
+        <input
+          class="completo"
+          type="text"
+          name="url"
+          id="url"
+          placeholder="URL"
+        />
+        <br><br>
+        <a class="generar" onclick="generarSitioWeb()">Generar</a>
+      </div>
+
+      <div class="citador audioVisuales from" id="videos" hidden>
+
+      </div>
+      <div id="message">
+        <label for="msg">Tu referencia bibliografica:</label>
+        <textarea id="msg" name="msg" readonly="yes" wrap="hard">
+
+        </textarea>
+        <br />
+        
+        <div class="completo" id="ref" hidden>
+          <label> Numero de referencia: </label><br />
+          <input
+          class="tercia"
+          type="number"
+          name="referencia"
+          id="referencia"
+          placeholder="N° referencia"
+        />
+        <a class="generar" onclick="eliminar()">Borrar</a>
+        <a class="generar" onclick="limpiartodo()">Limpiar todo</a>
+        </div>
+      </div>
+    </form>
+    <br><br><br><br>
+
+<footer>
+  <br><br>
+  <img class="imUno" src="./IMAGE/logo nacional.png" alt="Logotipo del TEC Nacional">
+  <img class="imDos" src="./IMAGE/logoEstado.png" alt="Logotipo del estado de Michóacan">
+  <img class="imDos" src="./IMAGE/logoInst.png" alt="Logotipo del TEC campus Huetamo">
+  <br><br>
+  <p class="dosT">Copyright Carla Jacobo 2022</p>
+</footer>
+
+  </body>
+</html>
